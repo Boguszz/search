@@ -1,0 +1,33 @@
+.footer {
+  font-size: 16px;
+}
+
+.footer__copyright {
+  font-weight: 700;
+}
+
+.footer__link {
+  color: #ff6a00;
+  transition: color 300ms linear;
+
+  &:hover,
+  &:focus {
+    color: #000000;
+  }
+}
+
+.footer__icon {
+  fill: currentColor;
+}
+
+.footer__powered {
+  font-weight: 700;
+}
+
+.footer__studios {
+  padding: 15px;
+
+  background: #ee0979;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: #ffffff;
+}

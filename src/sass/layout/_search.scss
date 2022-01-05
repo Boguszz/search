@@ -1,0 +1,38 @@
+.search {
+  display: flex;
+}
+
+.search__input {
+  width: 700px;
+  height: 50px;
+  padding: 10px;
+
+  border: 1px solid #e2e2e2;
+  outline: none;
+
+  &::placeholder {
+    color: #e2e2e2;
+  }
+}
+
+.search__button {
+  width: 80px;
+  height: 50px;
+  padding: 10px;
+
+  background-color: #e2e2e2;
+  color: #ff6a00;
+  cursor: pointer;
+  border: none;
+  transition: background-color 300ms linear, color 300ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: #ff6a00;
+    color: #000000;
+  }
+}
+
+.search__icon {
+  fill: currentColor;
+}
