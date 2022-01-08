@@ -3,7 +3,6 @@
 }
 
 .footer__copyright {
-  font-weight: 700;
 }
 
 .footer__link {
@@ -26,8 +25,5 @@
 
 .footer__studios {
   padding: 15px;
-
-  background: #ee0979;
-  background: linear-gradient(to right, #ff6a00, #ee0979);
-  color: #ffffff;
+  border: 1px solid #000000;
 }

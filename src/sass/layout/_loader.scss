@@ -1,0 +1,18 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  &.is-hidden {
+    display: none;
+  }
+}
+
+.loader__icon {
+  fill: #ff6a00;
+
+  animation-name: spin;
+  animation-duration: 1500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

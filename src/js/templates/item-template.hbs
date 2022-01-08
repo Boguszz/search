@@ -1,0 +1,29 @@
+<li class='result__item'>
+  <h2 class='result__title'>{{tags}}</h2>
+  <p class='result__duration'>Duration: {{duration}}s</p>
+  <video class='result__video' width='400' height='400' controls>
+    <source src='{{videos.large.url}}' type='video/mp4' />
+    <source src='{{videos.medium.url}}' type='video/mp4' />
+    <source src='{{videos.small.url}}' type='video/mp4' />
+    <source src='{{videos.tiny.url}}' type='video/mp4' />
+    Your browser doesn't support HTML5 video tag.
+  </video>
+  <ul class='result__list'>
+    <li class='result__element'>
+      <p class='result__text'>Views:</p>
+      <p class='result__value'>{{views}}</p>
+    </li>
+    <li class='result__element'>
+      <p class='result__text'>Downloads:</p>
+      <p class='result__value'>{{downloads}}</p>
+    </li>
+    <li class='result__element'>
+      <p class='result__text'>Likes:</p>
+      <p class='result__value'>{{likes}}</p>
+    </li>
+    <li class='result__element'>
+      <p class='result__text'>Comments:</p>
+      <p class='result__value'>{{comments}}</p>
+    </li>
+  </ul>
+</li>
